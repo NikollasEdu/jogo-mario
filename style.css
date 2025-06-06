@@ -27,23 +27,27 @@
     bottom: 0;
 }
 
+.jump {
+    animation: jump 500ms ease-out;
+}
+
 .nuvem {
     position: absolute;
     width: 550px;
     animation: clouds-animation 20s infinite linear;
 }
 
-@keyframes pipe_animation{
+@keyframes pipe_animation {
     from {right: -80px;}
     to {right: 100%;}
 }
 
-@keyframes clouds_animation{
+@keyframes clouds_animation {
     from {right: -550px;}
     to {right: 100%;}
 }
 
-@keyframes jump{
+@keyframes jump {
     0% {bottom: 0;}
     40% {bottom: 180px;}
     50% {bottom: 180px;}
