@@ -37,12 +37,12 @@
     animation: clouds-animation 20s infinite linear;
 }
 
-@keyframes pipe_animation {
+@keyframes pipe-animation {
     from {right: -80px;}
     to {right: 100%;}
 }
 
-@keyframes clouds_animation {
+@keyframes clouds-animation {
     from {right: -550px;}
     to {right: 100%;}
 }
